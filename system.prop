@@ -22,6 +22,8 @@ debug.sf.enable_hwc_vds=0
 media.wfd.max_resolution=8
 debug.sf.predict_hwc_composition_strategy=0
 persist.vendor.color.matrix=2
+debug.hwui.use_hint_manager=true
+debug.hwui.target_cpu_time_percent=20
 
 # CNE
 persist.vendor.cne.feature=1
