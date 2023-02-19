@@ -428,3 +428,6 @@ on property:sys.boot_completed=1
     stop statsd
 
     chmod 440 /proc/net/unix
+
+    # Enable suspend to RAM
+    write /sys/power/mem_sleep "deep"
