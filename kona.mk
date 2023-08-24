@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Build ViPER4AndroidFX
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+
 # Target VNDK Fallback version
 PRODUCT_EXTRA_VNDK_VERSIONS := 30 31 32 33
 
